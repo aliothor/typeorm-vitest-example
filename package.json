@@ -1,0 +1,31 @@
+{
+  "name": "typeorm-vitest-example",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@rollup/plugin-swc": "^0.3.0",
+    "@swc/core": "^1.5.5",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.12.11",
+    "fs-extra": "^11.2.0",
+    "rollup-plugin-swc3": "^0.11.2",
+    "tsx": "^4.9.4",
+    "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": "21"
+  }
+}
